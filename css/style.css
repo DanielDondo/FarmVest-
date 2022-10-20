@@ -2171,11 +2171,11 @@ html.light body {
 }
 
 html.dark .page__theme {
-  background: url("../img/sun.svg") center/100% no-repeat;
+  background: url("../img/sun.svg") center/70% no-repeat;
 }
 
 html.light .page__theme {
-  background: url("../img/moon.svg") center/100% no-repeat;
+  background: url("../img/moon.svg") center/70% no-repeat;
 }
 
 .page__theme {
@@ -2189,6 +2189,15 @@ html.light .page__theme {
 
 .page__action {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .page__reset {
