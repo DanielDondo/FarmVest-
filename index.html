@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20221020234325">
+	<link rel="stylesheet" href="css/style.min.css?_v=20221021002319">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,10 +24,24 @@
 				<div class="header__menu menu">
 					<nav class="menu__body">
 						<ul class="menu__list">
-							<li class="menu__item"><a href="#home" class="menu__link">Home</a></li>
-							<li class="menu__item"><a href="#reviews" class="menu__link">About</a></li>
-							<li class="menu__item"><a href="#pathway" class="menu__link">Features</a></li>
-							<li class="menu__item"><a href="#works" class="menu__link">How it works</a></li>
+							<li class="menu__item">
+								<a data-goto="#home" href="#" class="menu__link">Home</a>
+							</li>
+							<li class="menu__item">
+								<a data-goto-header data-goto-top="20" data-goto="#reviews" href="#" class="menu__link">
+									About
+								</a>
+							</li>
+							<li class="menu__item">
+								<a data-goto-header data-goto-top="20" data-goto="#pathway" href="#" class="menu__link">
+									Features
+								</a>
+							</li>
+							<li class="menu__item">
+								<a data-goto-header data-goto-top="30" data-goto="#works" href="#" class="menu__link">
+									How it works
+								</a>
+							</li>
 						</ul>
 					</nav>
 				</div>
@@ -495,7 +509,7 @@
 			</p>
 		</div>
 	</div>
-	<script src="js/app.min.js?_v=20221020234325"></script>
+	<script src="js/app.min.js?_v=20221021002319"></script>
 </body>
 
 </html>
